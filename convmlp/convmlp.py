@@ -1,8 +1,7 @@
 import torch
 import torch.nn as nn
-from einops.layers.torch import Rearrange, Reduce
 
-from convmlp.blocks import Tokenizer, ConvStage, ConvMLPStage, ClassifierHead
+from convmlp.blocks import ClassifierHead, ConvMLPStage, ConvStage, Tokenizer
 
 
 class ConvMLP(nn.Module):
